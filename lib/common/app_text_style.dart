@@ -4,12 +4,9 @@ import 'package:weather_app/common/app_color.dart';
 abstract class AppTextStyles {
   const AppTextStyles._();
 
-  static const String fontFamily = 'Aeonik';
+  static const String fontFamily = 'SFPRODISPLAY';
 
-  static TextStyle textStyle = TextStyle(
-      fontFamily: fontFamily,
-      fontStyle: FontStyle.normal,
-      color: AppColors.black);
+  static TextStyle textStyle = TextStyle(fontFamily: fontFamily, fontStyle: FontStyle.normal, color: AppColors.black);
   static TextStyle head26w4 = TextStyle(
       fontFamily: fontFamily,
       fontWeight: FontWeight.w400,
@@ -116,6 +113,23 @@ abstract class AppTextStyles {
       fontStyle: FontStyle.normal,
       fontSize: 92,
       color: AppColors.black);
+
+  static TextStyle body96w2 = TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w200,
+    fontStyle: FontStyle.normal,
+    fontSize: 96,
+    color: AppColors.black,
+  );
+  
+  static TextStyle body70w2 = TextStyle(
+    fontFamily: fontFamily,
+    fontWeight: FontWeight.w200,
+    fontStyle: FontStyle.normal,
+    fontSize: 70,
+    color: AppColors.black,
+  );
+
 
   static TextStyle body40w5 = TextStyle(
       fontFamily: fontFamily,
@@ -606,6 +620,12 @@ abstract class AppTextStyles {
       fontWeight: FontWeight.w900,
       fontStyle: FontStyle.normal,
       fontSize: 45,
+      color: AppColors.black);
+  static TextStyle body64w4 = TextStyle(
+      fontFamily: fontFamily,
+      fontWeight: FontWeight.w400,
+      fontStyle: FontStyle.normal,
+      fontSize: 64,
       color: AppColors.black);
 
   static TextStyle b3Medium = TextStyle(

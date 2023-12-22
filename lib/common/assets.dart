@@ -27,14 +27,26 @@ abstract class _AssetsHolder {
 class _Icons extends _AssetsHolder {
   const _Icons() : super('assets/icons');
 
-  // String get basket => '$basePath/basket.svg';
-  
+  String get bookIcon => '$basePath/book_icon.svg';
+  String get locationMapActiveIcon => '$basePath/location_map_active_icon.svg';
+  String get locationMapIcon => '$basePath/location_map_icon.svg';
+  String get menuIcon => '$basePath/menu_icon.svg';
+
+  String get searchIcon => '$basePath/search_icon.svg';
+  String get moreHoriz => '$basePath/more_horiz_icon.svg';
+
+  String get moonCloudFastWind => '$basePath/moon_cloud_fast_wind.png';
+  String get moonCloudMidRaining => '$basePath/moon_cloud_mid_raining.png';
+  String get sunCloudAngledRaining => '$basePath/sun_cloud_angled_raining.png';
+  String get sunCloudMidRaining => '$basePath/sun_cloud_mid_raining.png';
+  String get tornadoPng => '$basePath/tornado_3x.png';
 }
 
 class _Images extends _AssetsHolder {
   const _Images() : super('assets/images');
 
-  // String get blurBack => '$basePath/blur_back.png';
+  String get backgroundImage => '$basePath/back_img.png';
+  String get houseImage => '$basePath/house_image.png';
 }
 
 class _Lottie extends _AssetsHolder {
